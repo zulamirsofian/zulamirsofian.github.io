@@ -1,16 +1,4 @@
-/* CLASSES */
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('../images/background/11.jpg') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-
+/* Your custom styles */
 /* FONTS */
 .font-raleway {
 	font-family: "raleway", "sans-serif";
@@ -96,18 +84,3 @@
 /* END CLASSES */
 
 /* ELEMENTS */
-body {
-  background-color: #12005e ;
-}
-/* END ELEMENTS */
-
-/* ID'S */
-#t1 {
-    -moz-tab-size: 4; /* Code for Firefox */
-    -o-tab-size: 4; /* Code for Opera 10.6-12.1 */
-    tab-size: 4;
-}
-/* END ID'S */
-
-
-
