@@ -92,7 +92,14 @@
 		</div>
 			<div style="background-color: " class="col-md-3">
 			<h1 class="text-center"<p style="width:300px"><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="33"></img>
-			<input class="mdl-slider mdl-js-slider" type="range" id="s1" min="0" max="16" value="8" step="2" disabled></p></h1>
+			<!-- Simple MDL Progress Bar -->
+			<div id="p1" class="mdl-progress mdl-js-progress"></div>
+			<script>
+			document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+			this.MaterialProgress.setProgress(44);
+			});
+			</script>
+			</h1>
 			</div>
 			<div class="col-md-3" style="background-color: ">
 			<h1 class="text-center"<p style="width:300px"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Microsoft_Office_2013_logo.svg" width="28"></img>
