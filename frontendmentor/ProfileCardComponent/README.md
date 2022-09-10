@@ -4,12 +4,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Screenshot](/images/screenshot.png?raw=true "Screenshot")
+![Screenshot](images/screenshot.png?raw=true "Screenshot")
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/zulamirsofian/Profile-Card-Component)
+- Live Site URL: [Zulamir's Github](https://zulamirsofian.github.io/frontendmentor/ProfileCardComponent/)
 
 
 
