@@ -19,6 +19,5 @@ Reading the solution provided by Stack Overflow and understanding what the docum
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Zulamir Sofian](https://zulamirsofian.github.io/)
+- Frontend Mentor - [@zulamirsofian](https://www.frontendmentor.io/profile/zulamirsofian)
