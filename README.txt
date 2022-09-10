@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/hujan142/pen/JOmpqw.
-
- I hab no idea what I'm doing
+Thanks for dropping by, there's nothing here but my profile only.
