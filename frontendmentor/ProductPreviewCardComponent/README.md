@@ -4,7 +4,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![Screenshot](/images/screenshot.png?raw=true "Screenshot")
 
 ### Links
 
