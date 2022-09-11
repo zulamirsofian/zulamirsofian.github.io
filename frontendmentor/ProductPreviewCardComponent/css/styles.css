@@ -1,0 +1,27 @@
+div + img {
+    max-width: 100%;
+    height: auto;
+}
+.card-title {
+    letter-spacing: 3.6px;
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 900;
+    font-family: Montserrat;
+}
+
+.perfume-name {
+    font-weight: 700;
+    font-family: Fraunces;
+    font-size: 3.9rem;
+    margin-bottom: 1rem;
+
+}
+
+.description {
+    font-size: 18.3px;
+    color: grey;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-align: left;
+}
