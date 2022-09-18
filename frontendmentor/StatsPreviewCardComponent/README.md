@@ -4,7 +4,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![Screenshot](/images/screenshot.png?raw=true "Screenshot")
+![Screenshot](images/screenshot.png?raw=true "Screenshot")
 
 ### Links
 
