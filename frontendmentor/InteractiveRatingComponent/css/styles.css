@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    font-family: 'Overpass';
+}
+
+
+h1 {
+    padding-left: 20px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-color: hsla(216, 12%, 54%, 0.2);
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type=radio]{
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.opt{
+    display: block;
+    position: relative;
+    width: 3rem;
+    height: 0;
+    padding-bottom:3rem;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    line-height: 3;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+  .opt:hover {
+    background-color: hsl(216, 12%, 54%);
+  }
+
+  #butang-pill {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 280px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  #butang-pill:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  /* .kard{
+    max-width: 40ch;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 5em;
+} */
+
+/* .imgBlock{
+    width: 100%;
+    height: 15ch;
+    background: url(../images/illustration-thank-you.svg)  no-repeat center;
+} */
+
+.message {
+    width: 200px;
+    text-align: center;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    color: hsl(25, 97%, 53%);
+    border-radius: 2rem; 
+    justify-content: center;
+    align-items: center;
+}
+
+#thankYou {
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+  .butang {border-radius: 100%;}
+  .butang2 {border-radius: 100%;}
+  .butang3 {border-radius: 100%;}
+  .butang4 {border-radius: 100%;}
+  .butang5 {border-radius: 100%;}
