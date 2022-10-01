@@ -1,16 +1,52 @@
-.fullblackbackground {
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&family=Raleway:wght@400;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1257D9; /* #0d6efd */
+}
+
+.display-1 {
+    font-family: 'Raleway';
+    font-size: 2.3em;
+    color: #DBE8FF;
+}
+
+.card, .mb-3 {
+    border-radius: 20px; 
+    box-shadow: 5px 4px #0D2249;
+    background-color: #8BAAE4;
+}
+
+.description {
+    margin-bottom: 3em;
+}
+
+.fw-semibold {
+    margin-top: 20px;
+}
+
+.contact-spacing {
+    margin-top: 1.5em;
+}
+
+.nav, .tab-content, .tab-pane {
+    font-family: 'Montserrat';
+}
+
+.tab-content {
+    color: #DBE8FF;
+}
+
+img {
     width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-
-.fullstop {
-    max-width: 1px;
-    max-height: 1px;
-}
-
-.bg-secondary {
-    color: white;
+    max-width: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
 }
