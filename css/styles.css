@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #1257D9; /* #0d6efd */
+    background-color: #0B3A2B; /* #0d6efd */
 }
 
 .display-1 {
@@ -17,20 +17,25 @@ body {
 
 .card, .mb-3 {
     border-radius: 20px; 
-    box-shadow: 5px 4px #0D2249;
-    background-color: #8BAAE4;
+    box-shadow: 5px 4px 5px #0D2249;
+    background-color: #2C594B;
+}
+
+
+.card-title, .text-muted {
+    font-weight: 800;
+}
+
+.card-text {
+    color: white;
 }
 
 .description {
     margin-bottom: 3em;
 }
 
-.fw-semibold {
-    margin-top: 20px;
-}
-
 .contact-spacing {
-    margin-top: 1.5em;
+    margin-top: 10px;
 }
 
 .nav, .tab-content, .tab-pane {
@@ -38,7 +43,7 @@ body {
 }
 
 .tab-content {
-    color: #DBE8FF;
+    color: #8BC6B3;
 }
 
 img {
