@@ -9,7 +9,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Repo](https://github.com/zulamirsofian/stats-preview-card-component)
-- Live Site URL: [Zulamir's Github](https://zulamirsofian.github.io/frontendmentor/StatsPreviewCardComponent/)
+- Live Site URL: [Zulamir's Github](https://zulamirsofian.github.io/frontendmentor/stats-preview-card-component/)
 
 
 
