@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    /* Primary */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /* Primary */
+
+    /* Neutral */
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /* PARAGRAPHS */
+    --very-light-gray: hsl(0, 0%, 95%); /* bgs, headings, buttons */
+    /* Neutral */
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "Big Shoulders Display";
+    font-weight: 800;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 95%;
+    color:hsl(0, 0%, 95%, 0.5);
+    line-height: 1.5;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.card-container {
+    color: white;
+    height: 65vh;
+    padding: 20px;
+    width: 15vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgdesc {
+    padding-top: 40px;
+}
+
+#sedans {
+   background-color: var(--bright-orange);
+}
+
+#suvs {
+   background-color: var(--dark-cyan);
+}
+
+#luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.btn-sedans {
+    color: var(--bright-orange);
+    background-color: white;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid var(--very-light-gray);
+    font-family: "Lexend Deca";
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.btn-suvs {
+    color: var(--dark-cyan);
+    background-color: white;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid var(--very-light-gray);
+    font-family: "Lexend Deca";
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    align-self: flex-start;
+}
+
+.btn-luxury {
+    color: var(--very-dark-cyan);
+    background-color: white;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid var(--very-light-gray);
+    font-family: "Lexend Deca";
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    align-self: flex-start;
+}
+
+/* MEDIAAA */
+@media only screen and (max-width: 810px) {
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    .card-container {
+        height: 65vh;
+        padding: 20px;
+        min-width: 90vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* MEDIAAA */
