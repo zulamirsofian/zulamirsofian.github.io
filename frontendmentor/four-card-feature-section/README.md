@@ -4,7 +4,7 @@ This is a solution to the [Four card feature section](https://www.frontendmentor
 
 ### Screenshot
 
-![Screenshot](images/screenshot.png?raw=true "Screenshot")
+![Screenshot](screenshot.png?raw=true "Screenshot")
 
 ### Links
 
