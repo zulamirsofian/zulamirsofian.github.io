@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    /* Primary */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    /* Primary */
+
+    /* Neutral */
+    --very-dark-blue-main-bg: hsl(217, 54%, 11%); /* Main BG */
+    --very-dark-blue-card-bg: hsl(216, 50%, 16%); /* Card BG */
+    --very-dark-blue-line: hsl(215, 32%, 27%); /* Line */
+    --white: hsl(0, 0%, 100%); /* Line */
+    /* Neutral */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+/* Mobile */
+
+h3 {
+    color: #687C98;
+    font-weight: 300;
+}
+
+body {
+    background-color: var(--very-dark-blue-main-bg);
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container {
+    background-color: var(--very-dark-blue-main-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.flex-card {
+    background-color: var(--very-dark-blue-card-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0 20px 0;
+    height: 90%;
+    width: 80vw;
+    border-radius: 20px;
+}
+
+.nft-photo {
+    border-radius: 10px;
+    width: 100%;
+    max-height: auto;
+    align-self: center;
+}
+
+.flex-biasa {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  #eth {
+    color: var(--cyan);
+    font-weight: 800;
+  }
+
+#icons {
+    /* background-image: url(images/icon-ethereum.svg); */
+    max-width: auto;
+    max-height: 3vh;
+    margin-right: 5px;
+    /* background-repeat: no-repeat; */
+    /* margin: 2vh 2vw 0 0; */
+
+}
+
+.garisan {
+    border-bottom: 2px;
+    width: 100%;
+    height: 2px;
+    /* margin-left: 15%; */
+    background-color: var(--very-dark-blue-line);
+}
+.flex-biasa-2 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+}
+
+#profile-icon {
+    max-width: auto;
+    max-height: 5vh;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: thin;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+/* Desktop */
+a:hover {
+    color: var(--cyan);
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.flex-container {
+    background-color: var(--very-dark-blue-main-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* margin-top: 50px; */
+}
+
+.flex-card {
+    background-color: var(--very-dark-blue-card-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    margin-top: 0 0 0 0;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+
+.nft-photo {
+    border-radius: 10px;
+    width: auto;
+    max-height: auto;
+    align-self: center;
+}
+
+  #eth {
+    color: var(--cyan);
+    font-weight: 800;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    transform: scale(0.2);
+  }
+
+  .image-container:hover .overlay {
+    opacity: 0.5;
+    /* background-color: var(--cyan); */
+  }
+
+  .image-container:hover{
+    opacity: 0.5;
+    /* background-color: var(--cyan); */
+  }
+  
+
+}
