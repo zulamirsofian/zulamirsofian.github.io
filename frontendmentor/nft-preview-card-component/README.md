@@ -9,7 +9,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 - Solution URL: [Repo](https://github.com/zulamirsofian/nft-preview-card-component)
-- Live Site URL: [Zulamir's Github](https://zulamirsofian.github.io/nft-preview-card-component)
+- Live Site URL: [Zulamir's Github](https://zulamirsofian.github.io/frontendmentor/nft-preview-card-component)
 
 ### Built with
 
