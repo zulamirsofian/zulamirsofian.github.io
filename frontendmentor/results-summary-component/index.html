@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  <div class="main-flex">
+    <div class="flex-container">
+      <div class="big-score"> <!-- PURPLE BIG SCORE -->  
+        <p class="your-result">Your Result</p>
+        <div class="main-score">
+        <p>
+        <span class="seventy-six">76</span>
+        <span class="of-100">of 100</span>
+        </p>
+        </div>
+        <p class="great">Great</p>
+        <p class="you-scored-higher">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="small-score"> <!-- ALL THAT SMALL SCORES -->
+        <p class="summary">Summary</p>
+          <div class="attribute-container" id="reaction">
+            <img src="images/icon-reaction.svg" alt="reaction-logo"> 
+            <p class="attributes">Reaction</p>
+            <div class="attribute-score">
+              <p class="score">80 <span class="full-score"> / 100</span></p>
+            </div>
+          </div>
+          <div class="attribute-container" id="memory">
+            <img src="images/icon-memory.svg" alt="memory-logo">
+            <p class="attributes">Memory</p>
+            <div class="attribute-score">
+              <p class="score">92 <span class="full-score"> / 100</span></p>
+            </div>
+          </div>
+          <div class="attribute-container" id="verbal">
+            <img src="images/icon-verbal.svg" alt="verbal-logo">
+            <p class="attributes">Verbal</p>
+            <div class="attribute-score">
+              <p class="score">61 <span class="full-score"> / 100</span></p>
+            </div>
+          </div>
+          <div class="attribute-container" id="visual">
+            <img src="images/icon-visual.svg" alt="visual-logo">
+            <p class="attributes">Visual</p>
+            <div class="attribute-score">
+              <p class="score">72 <span class="full-score"> / 100</span></p>
+            </div>
+          </div>
+        <a href="#" class="btn">Continue</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
