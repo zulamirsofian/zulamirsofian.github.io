@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    /* Primary */
+    /* Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%) */
+    /* Primary */
+
+    /* Neutral */
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+    /* Neutral */
+}
+
+* {
+    font-family: "Raleway", "Times New Roman";
+}
+
+/* Mobile */
+
+body {
+    background-image: url(images/bg-mobile.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    gap: 50px;
+}   
+
+
+.top-container {
+    background-color: hsl(228, 56%, 26%);
+    display: flex;
+    flex-direction: column;
+    height: 28vh;
+    width: 80vw;
+    border-radius: 20px 100px 20px 20px;
+    gap: 20px;
+}
+
+.fylo-logo {
+    margin: 30px 0 20px 20px;
+}
+
+.fylo-icons {
+    display: inline-block;
+    flex-direction: row;
+    /* row-gap: 10px; */
+}
+
+#icons {
+    background-color: hsla(0, 100%, 0%, 0.7);
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 20px;
+    padding: 10px;
+}
+
+.bottom-container {
+    background-color: hsl(228, 56%, 26%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 28vh;
+    width: 80vw;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+}
+
+#usage {
+    color: white;
+    font-weight: 400;
+}
+
+#progressbar {
+    background-color: black;
+    border-radius: 13px;
+    width: 60vw;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar>div {
+    background: rgb(255,163,153);
+    background: linear-gradient(83deg, rgba(255,163,153,1) 34%, rgba(255,77,151,1) 77%); 
+    width: 50vw;
+    /* Adjust with JavaScript */
+    height: 15px;
+    border-radius: 10px;
+  }
+
+  #progressbar > div::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 24%; /* Adjust the value to position the circular point */
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white; /* Adjust the color as needed */
+  }
+
+  .storage {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+  }
+
+.gbleft {
+    /* display: flex; */
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 14px 14px 14px 14px;
+    border-radius: 10px;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    transform: translate(0%, 270%);
+    font-size: 14px;
+    color: hsla(0, 100%, 0%, 0.6);
+}
+
+  p {
+    color: white;
+  }
+/* Mobile */
+
+@media screen and (min-width: 1080px) {
+  .top-container {
+    max-width: 25vw;
+    margin-left: 20px;
+  }
+
+  .bottom-container {
+    max-height: 27vh;
+    max-width: 60vw;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh;
+    min-width: 100vw; */
+}   
+
+  #progressbar {
+    max-width: 50vw;
+    /* (height of inner div) / 2 + padding */
+    /* padding: 3px; */
+  }
+  
+  #progressbar>div {
+    background: rgb(255,163,153);
+    background: linear-gradient(83deg, rgba(255,163,153,1) 34%, rgba(255,77,151,1) 77%); 
+    max-width: 40vw;
+    /* Adjust with JavaScript */
+    height: 15px;
+    border-radius: 10px;
+  }
+
+  #progressbar > div::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 24%; /* Adjust the value to position the circular point */
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white; /* Adjust the color as needed */
+  }
+
+  .storage {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50vw;
+  }
+
+.gbleft {
+    /* display: flex; */
+    background-color: white;
+    /* max-height: auto; */
+    /* max-width: auto; */
+    padding: 14px 14px 14px 14px;
+    border-radius: 10px;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    bottom: calc(100% + 50px);
+    left: calc(90% - 100px);
+    /* transform: translate(30%, -150%); */
+    font-size: 14px;
+    color: hsla(0, 100%, 0%, 0.6);
+}
+
+}
