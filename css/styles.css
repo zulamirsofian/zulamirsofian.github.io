@@ -2,56 +2,187 @@
 
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
 }
 
 body {
-    background-color: #0B3A2B; /* #0d6efd */
+  background-color: #000000; /* #0d6efd */
 }
 
-.display-1 {
-    font-family: 'Raleway';
-    font-size: 2.3em;
-    color: #DBE8FF;
+h1 {
+  font-family: "Montserrat";
+  font-weight: 800;
 }
 
-.card, .mb-3 {
-    border-radius: 20px; 
-    box-shadow: 5px 4px 5px #0D2249;
-    background-color: #2C594B;
-}
-
-
-.card-title, .text-muted {
-    font-weight: 800;
-}
-
-.card-text {
-    color: white;
-}
-
-.description {
-    margin-bottom: 3em;
-}
-
-.contact-spacing {
-    margin-top: 10px;
-}
-
-.nav, .tab-content, .tab-pane {
-    font-family: 'Montserrat';
-}
-
-.tab-content {
-    color: #8BC6B3;
-}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  margin: 40px 0 0 0;
+  /* min-height: 100vh;
+  min-width: 100vw; */
+}   
 
 img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    border-radius: 10%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  /* padding-top: 20px; */
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-radius: 10%;
+}
+
+/* Experience */
+
+/* Experience */
+
+/* Tabs */
+.tab {
+  overflow: hidden;
+  /* border: 1px solid #ccc; */
+  background-color: #000000;
+  border: 1px solid#ffffff;
+  }
+  
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 16px;
+  transition: 0.3s;
+  width: 30vw;
+  font-family: "Montserrat";
+  font-weight: 800;
+  }
+  
+  
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+  
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffffff;
+  color: #000000;
+}
+  
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ffffff;
+  border-top: none;
+  animation: fadeEffect 0.5s;
+  width: 90vw;
+  height: auto;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.titletab {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Montserrat";
+  font-weight: 800;
+  /* border: 2px solid red; */
+}
+/* Tabs */
+
+/* Accordion */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  /* max-height: 0; */
+  transition: 1s;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ffffff;
+  color: #000000;
+  /* border: 1px solid red; */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  /* background-color: green; */
+  display: none;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+/* Accordion */
+
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 7px;
+  width: auto;
+  text-align: center;
+  margin: 10px;
+  font-family: "Montserrat";
+  font-weight: 800;
+  /* margin: 16px 0 0 0; */
+}
+
+/* Contact */
+/* Contact */
+
+
+#email {
+  background-color: #c71610;
+  /* margin: 20px 0 20px 0; */
+}
+
+#whatsapp {
+  background-color: #128c7e;
+}
+
+#phone {
+  background-color: #4285F4;
+}
+
+#linkedin {
+  background-color: #0077b5;
+}
+
+/* Contact */
+
+/* References */
+
+/* References */
+
+@media screen and (min-width: 1080px) {
+
+.tabcontent {
+  width: 50vw;
+}
+
 }
