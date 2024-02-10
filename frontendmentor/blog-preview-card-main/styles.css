@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* Primary */
+    --yellow: hsl(47, 88%, 63%);
+    /* Primary */
+
+    /* Neutral */
+    --grey: hsl(0, 0%, 50%);
+    /* Neutral */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Figtree", "Arial";
+}
+
+body {
+    background-color: var(--yellow);
+}
+
+/* MOBILE PHONES */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.flex-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 90vw; 
+    padding: 22px 13px 20px 13px;
+    box-shadow: 10px 10px 0px 1px #000000;
+}
+
+#card-photo {
+    /* width: 90%; */
+    border-radius: 15px;
+}
+
+.flex-card-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 30px 0 0 11px;
+}
+
+button {
+    border-radius: 6px;
+    background: var(--yellow);
+    padding: 10px 13px 10px 13px;
+    text-decoration: none;
+    width: 30%;
+    font-weight: 800;
+    font-size: 17px;
+  }
+  
+button:hover {
+    text-decoration: none;
+  }
+
+#publish {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+#description {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 15px;
+    color: var(--grey);
+}
+
+.flex-gambar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#profile-icon {
+    max-width: 10%;
+    max-height: 10%;
+    border-radius: 12px;
+}
+
+#greg {
+    font-weight: 900;
+    margin: 0 0 0 10px;
+}
+
+/* MOBILE PHONES */
+
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {
+
+    a:hover {
+        color: var(--yellow);
+    }
+    .flex-card {
+        width: 20vw;
+    }
+    
+}
+/* DESKTOP */
