@@ -111,6 +111,15 @@ a {
     }
     .flex-card {
         width: 20vw;
+        border-radius: 20px;        
+    }
+    #card-photo {
+        width: 19vw;
+        /* height: 19vh; */
+        border-radius: 15px;
+    }
+    button {
+        width: 40%;
     }
     
 }
